@@ -1,0 +1,60 @@
+/* Styles for the card container */
+.moviedetails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #650c80;
+  text-align: center;
+}
+
+
+
+.card .container {
+  padding: 20px;
+  
+}
+
+.card h5 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.card h4 {
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+.card p {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+
+
+.card .buy-ticket {
+  background-color: #650c80;
+  color: #efecf0;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card .buy-ticket:hover {
+  background-color: #eee8e8;
+  color: #0e0c0c;
+}
+
+li{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: square;
+  line-height: 20px;
+}
